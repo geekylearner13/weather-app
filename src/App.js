@@ -19,10 +19,12 @@ function App() {
   const[error,setError] = React.useState(false);
   const[errMsg,setErrMsg] = React.useState("");
 
-  const currentUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&APPID=0a605c99e644167a8948173eb448da7f&units=metric";
+  const apiKey = process.env.REACT_APP_API_KEY;
+
+  const currentUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&APPID=" +apiKey+"&units=metric";
   const iconUrl = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
   // const hourlyIcon = "https://openweathermap.org/img/wn/" + {hourlyData,list ? } + "@2x.png";
-  const hourlyUrl = "https://api.openweathermap.org/data/2.5/forecast?q="+ location +"&APPID=0a605c99e644167a8948173eb448da7f&units=metric"
+  const hourlyUrl = "https://api.openweathermap.org/data/2.5/forecast?q="+ location +"&APPID=" +apiKey+ "&units=metric"
   
 
 
