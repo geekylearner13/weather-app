@@ -208,4 +208,15 @@ body {
       right: 26%;
     }
 }  
-    
+
+@media (max-width:450px){
+  .app .description{
+    right: 9.5%;
+  }
+  .app .sym{
+    right:26%;
+  }
+  .app .search button{
+    right: 18%;
+  }
+}

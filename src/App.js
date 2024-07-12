@@ -60,7 +60,6 @@ function App() {
     setError(false)
   }
   
-
   return (
     <div className="app">
         <div className="search">
