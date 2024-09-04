@@ -1,3 +1,6 @@
+# Weather App 
+**Hosted Link** :- https://weathervibez.netlify.app/
+
 Weather App with React
 This is a simple weather application built using React. It displays current weather details and hourly forecasts using data from the OpenWeatherMap API.
 
